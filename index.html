@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title><em>The Pet Shop</em></title>
+        <title>The Pet Shop</title>
+        <link rel="icon" href="images/ms-icon.jpg">
         <meta charset="UTF-8">
         <meta name="Description" content="Welcome to The Pet Shop! The one stop shop for getting a new friend!">
+        <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
         <!--NAVBAR-->
-        <nav>
+        <nav class="nav-bar">
             <ul>
                 <li><a href="index.html">HOME</a></li>
                 <li><a href="contact.html">CONTACT</a></li>
@@ -27,7 +29,7 @@
         <!--HEADER-->
         <header>
             <div>
-                <h1>Welcome to The Pet Shop!</h1>
+                <h1 class="animate-text">Welcome to The Pet Shop!</h1>
             </div>
             <!--BLOCKQUOTE FOR THE HIGHLIGHTED QUOTE-->
             <blockquote>
@@ -66,42 +68,60 @@
         </section>
         <!--PET IMAGES-->
         <section>
-            <div>
+            <div class="container">
                 <div>
                     <h3>This is a link we want to use for another website.</h3>
                     <a href="https://www.petco.com/shop/en/petcostore">Petco</a>
                 </div>
                 <h2>Choose a Pet!</h2>
-                <div>
+                    <div>
                     <!--CAT IMAGE-->
-                    <div id="cat">
+                    <div id="cat" class="column">
+                        <div class="image-container">
                         <h3>Cats & Kittens</h3>
                         <img src="images/cat.jpg" alt="Picture of Kittens">
+                        <div class="overlay"></div>
+                    </div>
                     </div>
                     <!--DOG IMAGE-->
-                    <div id="dog">
+                    <div id="dog" class="column">
+                        <div class="image-container">
                         <h3>Dogs and Puppies</h3>
                         <img src="images/dog.jpg" alt="Picture of Dogs">
+                        <div class="overlay"></div>
+                        </div>
                     </div>
                     <!--RABBIT IMAGE-->
-                    <div id="rabbit">
+                    <div id="rabbit" class="column">
+                        <div class="image-container">
                         <h3>Rabbits</h3>
                         <img src="images/rabbit.jpg" alt="Picture of Rabbits">
+                        <div class="overlay"></div>
+                        </div>
                     </div>
                     <!--SNAKE IMAGE-->
-                    \<div id="snake">
+                    \<div id="snake" class="column">
+                        <div class="image-container">
                         <h3>Snakes</h3>
                         <img src="images/snake.jpg" alt="Picture of Snakes">
+                        <div class="overlay"></div>
+                        </div>
                     </div>
                     <!--FISH IMAGE-->
-                    <div id="fish">
+                    <div id="fish" class="column">
+                        <div class="image-container">
                         <h3>Fish</h3>
                         <img src="images/fish.jpg" alt="Picture of Fishs">
+                        <div class="overlay"></div>
+                        </div>
                     </div>
                     <!--REPTILE IMAGE-->
-                    <div id="reptiles">
+                    <div id="reptiles" class="column">
+                        <div class="image-container">
                         <h3>Retiles</h3>
                         <img src="images/beard-dragon.jpg" alt="Picture of Reptiles">
+                        <div class="overlay"></div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -109,7 +129,7 @@
         <!--VIDEOS-->
         <section>
             <!--DOG VIDEO-->
-            <div id="video">
+            <div id="video" class="container">
                 <h3>Videos</h3>
                 <iframe width="1280" height="720" src="https://www.youtube.com/embed/ng58pNPDDW4"></iframe>
             </div>
