@@ -1,0 +1,18 @@
+/*BODY*/
+
+/*Setting the entire webpage to these font-family and font size.*/
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: xx-large;
+    background-color: red;
+}
+
+/*Styling the inputs of the form section.*/
+input, textarea{
+    width: 200px;
+    margin: auto;
+    border: 2px solid blue;
+    border-radius: 5px;
+}
+
+
