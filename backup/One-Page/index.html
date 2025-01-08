@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="one_page_website.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World of Warcraft - Mage Guide</title>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav aria-label="Main navigation">
+        <a href="#home">Home</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#video">Video</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h1>Master the Mage in World of Warcraft</h1>
+        <p>The Mage is one of the most powerful classes in World of Warcraft, excelling in ranged damage and crowd control. With devastating spells and impressive versatility, playing a Mage can be incredibly rewarding.</p>
+        <p>Learn the secrets of the Arcane, Frost, and Fire specializations to dominate your enemies in PvE and PvP alike!</p>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery">
+        <h2>Mage Gallery</h2>
+        <p>Explore the magical world of the Mage with these stunning images:</p>
+        <img src="images/arcaneMage.jpg" alt="Arcane Mage casting a spell" width="300">
+        <img src="images/frostMage.jpg" alt="Frost Mage in action" width="300">
+        <img src="images/fireMage.jpg" alt="Fire Mage casting flames" width="300">
+    </section>
+
+    <!-- Video Section -->
+    <section id="video">
+        <h2>Watch a Mage in Action</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/IvIkmaUM8Fs?si=1FtmsBXuypBJ52GB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="/submit" method="post">
+            <!-- Name Input -->
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="Your Name" aria-describedby="name-instructions" required><br>
+            <small id="name-instructions">Please enter your full name.</small><br><br>
+    
+            <!-- Email Input -->
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="Your Email" aria-describedby="email-instructions" required><br>
+            <small id="email-instructions">Enter a valid email address (e.g., name@example.com).</small><br><br>
+    
+            <!-- Message Input -->
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" placeholder="Your Message" aria-describedby="message-instructions"></textarea><br>
+            <small id="message-instructions">Let us know how we can help you!</small><br><br>
+    
+            <!-- Submit Button -->
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Mage Guide - World of Warcraft</p>
+    </footer>
+</body>
+</html>
