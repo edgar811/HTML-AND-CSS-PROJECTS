@@ -1,0 +1,35 @@
+/*Font Passion One from fonts.google.com*/
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Mukta+Mahee:wght@200;300;400;500;600;700;800&family=Passion+One:wght@400;700;900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sacramento&display=swap');
+
+/*Creates global CSS variables that can be reused
+throughout the file*/
+:root{
+    --main-color: rgb(126, 133, 130);
+    --main-color-accent: rgb(237, 192, 3);
+    --main-color-transparent: rgba(126, 133, 130, 0.8);
+    --secondary-color: rgba(128, 0, 0, 0.9);
+    --accent-color: rgb(36, 36, 36);
+    --accent-text-color: rgb(255, 255, 255);
+    --main-font-family: 'Passion One', cursive;
+}
+
+body{
+    background-image: url(../images/theater-curtains.jpg);
+    background-size: 100%;
+}
+
+/*NAVBAR*/
+
+.navbar{
+    background-color: var(--secondary-color);
+    border-bottom: 5px solid rgb(98, 0, 0);
+    height: 100px;
+}
+
+/*Affects the title in the Academy Cinemas*/
+.navbar-brand{
+    color: var(--main-color-accent);
+    font-family: var(--main-font-family);
+    font-size: 45px;
+    padding-left: 30px;
+}
