@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*Font Passion One from fonts.google.com*/
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Mukta+Mahee:wght@200;300;400;500;600;700;800&family=Passion+One:wght@400;700;900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sacramento&display=swap');
 
@@ -103,4 +104,40 @@ drop down menu*/
 
 .navbar-toggler-icon{
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgb%28237, 192, 3%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");;
+=======
+/*Font Passion One from fonts.google.com*/
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Mukta+Mahee:wght@200;300;400;500;600;700;800&family=Passion+One:wght@400;700;900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sacramento&display=swap');
+
+/*Creates global CSS variables that can be reused
+throughout the file*/
+:root{
+    --main-color: rgb(126, 133, 130);
+    --main-color-accent: rgb(237, 192, 3);
+    --main-color-transparent: rgba(126, 133, 130, 0.8);
+    --secondary-color: rgba(128, 0, 0, 0.9);
+    --accent-color: rgb(36, 36, 36);
+    --accent-text-color: rgb(255, 255, 255);
+    --main-font-family: 'Passion One', cursive;
+}
+
+body{
+    background-image: url(../images/theater-curtains.jpg);
+    background-size: 100%;
+}
+
+/*NAVBAR*/
+
+.navbar{
+    background-color: var(--secondary-color);
+    border-bottom: 5px solid rgb(98, 0, 0);
+    height: 100px;
+}
+
+/*Affects the title in the Academy Cinemas*/
+.navbar-brand{
+    color: var(--main-color-accent);
+    font-family: var(--main-font-family);
+    font-size: 45px;
+    padding-left: 30px;
+>>>>>>> 2449f1b0207b4c1ee8b125c32c7e687372895a27
 }
