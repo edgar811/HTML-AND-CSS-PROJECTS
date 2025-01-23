@@ -16,6 +16,14 @@ Site elements:
 -Short Biography alongside a headshot
     -To grab the attention of the reader and encourage them to explore her
     life
-    
+
+-Early Life and Education
+-Career
+-Retirement
+-Post-retirement
 -News
--Headshot
+
+### Navigation
+-Single page
+-Nav elements scroll down to their section on the page
+-Include a 'back to top' after each section???
