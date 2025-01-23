@@ -1,0 +1,11 @@
+p {
+    font-size: 16px;
+    color: black; /* Default color */
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 600px) {
+    p {
+        color: blue;
+    }
+}

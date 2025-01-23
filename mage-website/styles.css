@@ -1,0 +1,126 @@
+/*Centers the image to the middle of the page*/
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/*Adds a filter to the image*/
+
+.filtered-image {
+    filter: grayscale(100%) blur(5px) brightness(150%);
+}
+
+/*Adds a border to the image*/
+
+.border-effect{
+    border: 5px solid yellow;
+    border-radius: 25px;
+}
+
+/*FOOTER*/
+
+footer {
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+    padding: 10px;
+    background-color: #333;
+    color: blue;
+}
+
+/*Formats the tables and data in it*/
+
+table, th, td{
+    border: 5px solid blue;
+    border-radius: 20px;
+    padding: 15px;
+    text-align: center;
+    font-size: large;
+}
+
+/*This will put a text in the center of the image.*/
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  .container:hover .overlay {
+    opacity: 1;
+  }
+
+.centered{
+    position: absolute;
+    font-size: 100px;
+    color: crimson;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*NAVBAR*/
+
+.navbar{
+    background-color: darkblue;
+    color: black;
+}
+
+.navbar:hover{
+    background-color: chocolate;
+    font-size: 20px;
+
+}
+
+/*Will style the columns and rows*/
+
+.column{
+    float: left;
+    width: 50%;
+    background-color: blueviolet;
+}
+
+.row{
+    color: black;
+    font-size: larger;
+    text-align: center;
+    max-width: auto;
+    height: auto;
+}
+
+/*Adds a hover effect to the p element*/
+
+p:hover{
+    color: blueviolet;
+    font-size: x-large
+}
+
+/*Adds an overlay effect on the image of choice*/
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
