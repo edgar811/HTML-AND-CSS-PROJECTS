@@ -3,10 +3,16 @@ html{
     font-family: Arial, sans-serif;
 }
 
+body{
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
 /*Add a black background color to the top navigation*/
 .topnav{
     background-color: #7b7485;
     overflow: hidden;
+    margin-bottom: 25px;
 }
 
 /* STyle the links inside the navigation bar*/
@@ -43,4 +49,10 @@ html{
 
 h3{
     text-align: center;
+}
+
+/* Apply paragraph style rules ONLY for paragraphs inside my 'info tiles'*/
+.info_tile p{
+    font-size: large;
+    color: red;
 }
