@@ -11,3 +11,30 @@ popoverTriggerList.forEach(function (element) {
         trigger: 'hover'
     });
 });
+
+//Initialize Toast
+
+var toastElList = [].slice.call(document.querySelectorAll('.toast'))
+var toastList = toastElList.map(function (toastEl) {
+  return new bootstrap.Toast(toastEl)
+})
+
+//Function to display toast with selected options
+function displaySelectedMovieOptions() {
+    var movie = document.getElementById('movieSelect').options[document.getElementById('movieSelect').selectedIndex].text;
+    var time = document.getElementById('timeSelect').options[document.getElementById('timeSelect').selectedIndex].text;
+    var quantity = document.getElementById('quantity').ariaValueMax;
+
+    var message = "Purchase confirmed for: " + movie + "\nTime: " + time + "\nTickets: " + quantity;
+
+
+    //Display Toast
+    var toastBody = document.getElementById('toastBody');
+    toastBody.textContent = message;
+    var toast = new bootstrap.Toast(document.getElementById('toastDisplay'));
+    toast.show()
+}
+
+function buyTickets() {
+    displaySelectedMovieOptions();
+}
