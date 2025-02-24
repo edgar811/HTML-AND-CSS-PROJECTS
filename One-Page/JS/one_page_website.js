@@ -37,3 +37,22 @@ function openModal() {
     dots[slideIndex-1].className += " active";
     captionText.innerHTML = dots[slideIndex-1].alt;
   }
+
+  //here is the fade out element
+  window.addEventListener('DOMContentLoaded', () => {
+    document.body.classList.remove('fade-out');
+  });
+
+  //Here is the alert for the form
+  function submitForm(){
+    var name = document.getElementById("name").value.trim();
+    var email = document.getElementById("email").value.trim();
+    var phone = document.getElementById("phone").value.trim();
+    var message = document.getElementById("message").value.trim();
+
+    if(name === "" || email === "" || phone === "" || message === "") {
+      alert("All fields are required. Please fill out the missing infomration!");
+      return false;
+    }
+    return true;
+  }

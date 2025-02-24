@@ -9,6 +9,9 @@
 </head>
 
 <body>
+    <script>
+        document.body.classList.add('fade-out');
+    </script>
     <!-- Navigation -->
     <nav aria-label="Main navigation">
         <a href="#home">Home</a>
@@ -96,7 +99,7 @@
     <!-- Contact Section -->
     <section id="contact">
         <h2>Contact Us</h2>
-        <form action="/submit" method="post">
+        <form action="/submit" onsubmit="return submitForm()" method="post">
             <!-- Name Input -->
             <label for="name">Name:</label><br>
             <input type="text" id="name" name="name" placeholder="Your Name" aria-describedby="name-instructions"
@@ -108,6 +111,12 @@
             <input type="email" id="email" name="email" placeholder="Your Email" aria-describedby="email-instructions"
                 required><br>
             <small id="email-instructions">Enter a valid email address (e.g., name@example.com).</small><br><br>
+
+            <!--Here is where you will put in the phone number-->
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+            <small>Format: 123-456-7890</small>
+            <br><br>
 
             <!-- Message Input -->
             <label for="message">Message:</label><br>

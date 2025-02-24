@@ -5,6 +5,14 @@ body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: xx-large;
     background-color: red;
+    opacity: 1;
+    transition: 3s opacity;
+}
+
+/*Here will add the fade effect*/
+body.fade-out{
+  opacity: 0;
+  transition: none;
 }
 
 /*Styling the inputs of the form section.*/
